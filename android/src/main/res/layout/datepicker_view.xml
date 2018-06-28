@@ -20,14 +20,14 @@
             android:id="@+id/day"
             android:layout_width="wrap_content"
             android:layout_height="160dp"
-            android:background="#FFFFFF"
+            android:background="@android:color/transparent"
             app:npv_ShowCount="5"
             app:npv_RespondChangeOnDetached="false"
             app:npv_TextSizeNormal="18sp"
             app:npv_TextSizeSelected="21sp"
             app:npv_WrapSelectorWheel="true"
             app:npv_TextColorSelected="#000000"
-            app:npv_TextColorNormal="#aaaaaa"
+            app:npv_TextColorNormal="#8A8A8A"
             app:npv_DividerColor="#cccccc"
             app:npv_ItemPaddingHorizontal="3dp"
             />
@@ -38,11 +38,11 @@
             android:layout_height="160dp"
             android:layout_toEndOf="@+id/day"
             android:layout_toRightOf="@+id/day"
-            android:background="#FFFFFF"
+            android:background="@android:color/transparent"
             app:npv_DividerColor="#cccccc"
             app:npv_RespondChangeOnDetached="false"
             app:npv_ShowCount="5"
-            app:npv_TextColorNormal="#aaaaaa"
+            app:npv_TextColorNormal="#8A8A8A"
             app:npv_TextColorSelected="#000000"
             app:npv_TextSizeNormal="18sp"
             app:npv_TextSizeSelected="21sp"
@@ -56,11 +56,11 @@
             android:layout_height="160dp"
             android:layout_toEndOf="@+id/hour"
             android:layout_toRightOf="@+id/hour"
-            android:background="#FFFFFF"
+            android:background="@android:color/transparent"
             app:npv_DividerColor="#cccccc"
             app:npv_RespondChangeOnDetached="false"
             app:npv_ShowCount="5"
-            app:npv_TextColorNormal="#aaaaaa"
+            app:npv_TextColorNormal="#8A8A8A"
             app:npv_TextColorSelected="#000000"
             app:npv_TextSizeNormal="18sp"
             app:npv_TextSizeSelected="21sp"
@@ -77,7 +77,7 @@
             app:npv_DividerColor="#cccccc"
             app:npv_RespondChangeOnDetached="false"
             app:npv_ShowCount="5"
-            app:npv_TextColorNormal="#aaaaaa"
+            app:npv_TextColorNormal="#8A8A8A"
             app:npv_TextColorSelected="#000000"
             app:npv_TextSizeNormal="18sp"
             app:npv_TextSizeSelected="21sp"
@@ -87,24 +87,4 @@
 
             />
     </RelativeLayout>
-
-    <ImageView
-        android:id="@+id/overlay_top"
-        android:src="@drawable/overlay"
-        android:layout_width="match_parent"
-        android:contentDescription="@string/overlay"
-        android:layout_height="20dp"
-        android:rotation="180"
-        />
-
-    <ImageView
-        android:id="@+id/overlay_bottom"
-        android:src="@drawable/overlay"
-        android:layout_width="match_parent"
-        android:contentDescription="@string/overlay"
-        android:layout_height="20dp"
-        android:layout_marginTop="140dp"
-        />
-
-
 </RelativeLayout>
